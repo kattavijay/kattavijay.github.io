@@ -1,2 +1,2 @@
-# kattavijay.github.io
-./kattavijay
+# Katta, Vijayakumar(Vijay)
+Java Developer
