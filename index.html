@@ -1,49 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-<!-- your webpage info goes here -->
-
-    <title>VIJAYAKUMAR KATTA</title>
-	
-	<meta name="author" content="your name" />
-	<meta name="description" content="" />
-
-<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
-	<link rel="stylesheet" href="indexstyle.css" type="text/css" />
-	
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Vijayakumar Katta" />
+  <meta name="description" content="Portfolio of Vijayakumar Katta - Lead Software Engineer" />
+  <title>Vijayakumar Katta</title>
+  <link rel="stylesheet" href="indexstyle.css" />
 </head>
 <body>
+  <div class="container">
+    <header class="site-header">
+      <div class="logo">
+        <h1><a href="/"> &nbsp; Vijayakumar Katta</a></h1>
+      </div>
+      <nav class="navbar" role="navigation" aria-label="Main Navigation">
+		<ul class="nav-list">
+		  <li><a href="#home">About</a></li>
+		  
+		  <li class="dropdown">
+			<a href="#projects">Work/Projects ▼</a>
+			<ul class="dropdown-menu">
+			  <li><a href="https://github.com/kattavijay/datascience-projects" target="_blank">Data Science</a></li>
+			  <li><a href="https://github.com/kattavijay?tab=repositories" target="_blank">Other </a></li>
+			</ul>
+		  </li>
+	  
+		  <li><a href="assets/Kattavijay_Resume_.pdf" download>Resume</a></li>
+		  <li><a href="mailto:katta.vijayk@gmail.com">Contact</a></li>
+		</ul>
+	  </nav>
+	  
+    </header>
 
-<!-- webpage content goes here in the body -->
+    <main class="content" id="home">
+      <section class="intro">
+        <h2>About Me</h2>
+        <p>
+          As a Lead Software Engineer with over 17 years of experience in IT development and services, I specialize in designing and delivering high-quality, scalable software solutions. My expertise spans across a broad range of technologies, including Java, Spring, Spring Boot/Cloud, React JS, and cloud infrastructure (AWS and private cloud). I am adept at leveraging SDLC best practices, REST and microservices architecture, containerization, and IntelliJ plugins to drive software excellence.
+        </p>
+        <p>
+          Throughout my career, I’ve successfully managed medium to large teams across local and global regions, fostering a collaborative environment where innovation and efficiency thrive. I bring strong project management skills, an ability to set and achieve strategic goals, and an adaptive approach to both Agile/Scrum and Waterfall methodologies.
+        </p>
+        <p>
+          In addition to my technical acumen, I am passionate about mentoring and empowering my team members to reach their full potential. I thrive in dynamic environments and am always eager to tackle new challenges, particularly in cybersecurity and data-centric projects.
+        </p>
+        <p>
+          Currently pursuing an MS in Data Science, I am excited to further enhance my skills in data-driven decision-making and advanced analytics. Let's connect and explore opportunities to collaborate!
+        </p>
+      </section>
+    </main>
 
-	<div id="page">
-		<div id="logo">
-			<h1><a href="/" id="logoLink">VIJAYAKUMAR KATTA</a></h1>
-		</div>
-		<div id="nav">
-			<ul>
-				<li><a href="#/home.html">About</a></li>
-				<li><a href="#/resume.html">Work/Projects</a></li>
-				<li><a href="#/resume.html">Resume</a></li>
-				<li><a href="#/contact.html">Contact</a></li>
-			</ul>	
-		</div>
-		<div id="content">
-			<h2>Home</h2>
-			<p>As a Lead Software Engineer with over 17 years of experience in IT development and services, I specialize in designing and delivering high-quality, scalable software solutions. My expertise spans across a broad range of technologies, including Java, Spring, Spring Boot/Cloud, React JS, and cloud infrastructure (AWS and private cloud). I am adept at leveraging SDLC best practices, REST and microservices architecture, containerization, and IntelliJ plugins to drive software excellence.
-
-				Throughout my career, I’ve successfully managed medium to large teams across local and global regions, fostering a collaborative environment where innovation and efficiency thrive. I bring strong project management skills, an ability to set and achieve strategic goals, and an adaptive approach to both Agile/Scrum and Waterfall methodologies.
-				
-				In addition to my technical acumen, I am passionate about mentoring and empowering my team members to reach their full potential. I thrive in dynamic environments and am always eager to tackle new challenges, particularly in cybersecurity and data-centric projects.
-				
-				Currently pursuing an MS in Data Science, I am excited to further enhance my skills in data-driven decision-making and advanced analytics. Let's connect and explore opportunities to collaborate!
-		</div>
-		<div id="footer">
-			<p>
-				Webpage made by <a href="/" target="_blank">[your name]</a>
-			</p>
-		</div>
-	</div>
+    <footer class="site-footer">
+      <p>&copy; 2025 <a href="/" target="_blank">Vijayakumar Katta</a>. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
